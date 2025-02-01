@@ -145,23 +145,23 @@ Business objective of this poroject is to predict whether a client will subscrib
 # Data visualization, EDA and feature engineering  
 
 -Missing data, outlier and buplicated data are checke. 
-- Handling Missing Values:
+- **Handling Missing Values:**
    - `No missing values`. 
 
-- Data Cleaning:
+- **Data Cleaning:**
    - `Removed 12 duplicate rows from the datase`.
 
-- Numerical features:
+- **Numerical features:**
 Nnumerical features are: age, duration, campaign, pdays, previous, employment variation ('emp_var'), cpi, confidence ('conf'), interest rate ('euribor3m') and number of employees ('nr_emp').
 -For numerical features, we check disribution of each feature (with boxplot, violinplot, hitogram and so on), its relationship with target variable and finally cehck correlation between them (with correlation function and heatmap). see problem 3 for details. 
 
-- Correlation Analysis for numerical features
+- **Correlation Analysis for numerical features**
     - A correlation matrix was calculated for the numerical features to understand the relationships between variables. Some key insights include:
       - `pdays` and `previous` show a negative correlation. 
       - `emp.var.rate`, `euribor3m`, and `nr.employed` have strong positive correlated with each other. 
       - `duration` has a minimal correlation with other features but is crucial in predicting the target variable.
 
-- Categorical features:
+- **Categorical features:**
 -Categorical features are: 'job', 'marital', 'education', 'default', 'housing', 'loan', 'contact', 'month', 'day_of_week', and 'poutcome'
 -For categorical data we check distribution of each feature (with counplot), their effect on target variable with heatmap, and their relationship with success rate(  For more detail see problem 3.) 
   - `day_of_week`: there are 5 days and all of the are around 20%, then thid feature can not help the model.
@@ -187,12 +187,16 @@ Nnumerical features are: age, duration, campaign, pdays, previous, employment va
 
 7- `Evaluation`: Moreover, we compare train score, test score and average fit time, here is the result: 
 
- 	                 Train Score 	Test Score 	Average Fit Time 	Precision 	Recal 	f1
-Model 						
-Decision Tree 	        1.00 	     0.89 	         1.32             0.52 	    0.51 	0.51
-KNN 	                0.93 	     0.90 	         0.21 	          0.59 	    0.44 	0.50
-SVC 	                0.92 	     0.91 	        33.48 	          0.67 	    0.43 	0.53
-Logistic Regression 	0.91 	     0.91 	         0.42 	          0.66 	    0.42 	0.51
+ 	                      Train Score 	Test Score 	Average Fit Time 	Precision     	Recal 	     f1
+Model 	
+
+Decision Tree 	           1.00 	     0.89 	         1.32             0.52 	       0.51    	0.51
+
+KNN 	                     0.93 	     0.90 	         0.21 	          0.59 	        0.44    	0.50
+
+SVC 	                    0.92 	     0.91 	        33.48 	          0.67 	         0.43    	0.53
+
+Logistic Regression    	0.91 	     0.91 	         0.42 	          0.66 	        0.42 	   0.51
 
 
 8- `Best model in first round of modeling (SVM)`: with attention to all criteria (train score, test score, time, recall, precision and f1), `SVM` is best model and second best model is logistic regression. see evaluation is 10-2-model comparison and 10-3-best model. 
