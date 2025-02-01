@@ -186,25 +186,12 @@ Nnumerical features are: age, duration, campaign, pdays, previous, employment va
 6- Adding `other models`: we use `decision tree`, `KNN` and `SVM` models too. We check calssification report for all of them, and comapre them. 
 
 7- `Evaluation`: Moreover, we compare train score, test score and average fit time, here is the result: 
-
-	                             Train Score	              Test Score	          Average Fit Time            	Precision	                   Recal                    	f1
-Model						
-Decision Tree	                     **1.00**                	0.89	                      1.32	                      0.52	                      0.51                     	0.51
-KNN	0.93	0.90	0.21	0.59	0.44	0.50
-SVC	0.92	0.91	33.48	0.67	0.43	0.53
-Logistic Regression	0.91	0.91	0.42	0.66	0.42	0.51
-
-
- 	                      Train Score 	Test Score 	Average Fit Time 	Precision     	Recal 	     f1
-Model 	
-
-Decision Tree 	           1.00 	     0.89 	         1.32             0.52 	       0.51    	0.51
-
-KNN 	                     0.93 	     0.90 	         0.21 	          0.59 	        0.44    	0.50
-
-SVC 	                    0.92 	     0.91 	        33.48 	          0.67 	         0.43    	0.53
-
-Logistic Regression    	0.91 	     0.91 	         0.42 	          0.66 	        0.42 	   0.51
+| Model                  |Train Score | Test Scor      | Fit Time       | Precision | Recall  | F1-Score | 
+|------------------------|------------|----------------|--------------- |-----------|---------|----------|-
+| Decision Tree          | 1.00       | 0.89           | 1.32           | 0.52      | 0.51    | 0.51     |   
+| KNN                    | 0.93       | 0.90           | 0.21           | 0.59      | 0.44    | 0.50     |  
+| SVC                    | 0.92       | 0.91           | 33.48          | 0.67      | 0.43    | 0.53     |   
+| Logistic Regression    | 0.91       | 0.91           | 0.42           | 0.66      | 0.42    | 0.51     | 
 
 
 8- `Best model in first round of modeling (SVM)`: with attention to all criteria (train score, test score, time, recall, precision and f1), `SVM` is best model and second best model is logistic regression. see evaluation is 10-2-model comparison and 10-3-best model. 
