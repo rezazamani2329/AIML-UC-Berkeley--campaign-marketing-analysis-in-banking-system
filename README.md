@@ -88,18 +88,24 @@ In this perspective bank can increase the efficiency of its marketing campaigns,
 Business objective of this poroject is to predict whether a client will subscribe to a term deposit based on various client, campaign, economic and social indicators.
 
 # Data Understanding (general)
-1- We have 41k data with 21 factors: one target and 20 features ( 10 numerical, 10 categorical). 
+1- We have `41k data` with `21 factors`: one target and 20 features ( `10 numerical, 10 categorical`). 
 
 2- `Target variable`; It represents the final achievement of calling each person. Data type of target variable is object, symbole of yes' represents that campaign was successful in marketing, and 'no' shows failure.  
 
 3- `Features`: they can be devided as following: 
+
  a- Bank client data: 7 features including age, job, employed, marital status, education, default (credit), housing loan, personal loan
+ 
  b- facfors related with the last contact of the current campaign: 4 features inclusing contact, month, day, and duration.
+ 
  c-other attributes: 4 features including campaign, pdays, previous and poutcome. 
+ 
  d- Social and economic context attributes: 5 features including employment variation rate, number of imployment, confidence, cpi and interest rate. 
- here is total list wit detial: 
+ 
+ Here is total list wit detial: 
  
 ### - Client Data:
+
   - `age`: Age of the client
   - `job`: Job type (categorical)
   - `marital`: Marital status (categorical)
