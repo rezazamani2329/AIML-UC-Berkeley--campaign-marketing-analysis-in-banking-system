@@ -106,38 +106,38 @@ Business objective of this poroject is to predict whether a client will subscrib
  
 ### - Client Data:
 
-  - `age`: Age of the client
-  - `job`: Job type (categorical)
-  - `marital`: Marital status (categorical)
-  - `education`: Education level (categorical)
-  - `default`: Has credit in default? (categorical)
-  - `housing`: Has housing loan? (categorical)
-  - `loan`: Has personal loan? (categorical)
+  - **age**: Age of the client
+  - **job**: Job type (categorical)
+  - **marital**: Marital status (categorical)
+  - **education**: Education level (categorical)
+  - **default**: Has credit in default? (categorical)
+  - **housing**: Has housing loan? (categorical)
+  - **loan**: Has personal loan? (categorical)
   
 ### - Contact Data:
-  - `contact`: Communication type (categorical)
-  - `month`: Last contact month (categorical)
-  - `day_of_week`: Last contact day of the week (categorical)
-  - `duration`: Last contact duration in seconds (numeric)
+  - **contact**: Communication type (categorical)
+  - **month**: Last contact month (categorical)
+  - **day_of_week**: Last contact day of the week (categorical)
+  - **duration**: Last contact duration in seconds (numeric)
   
 ### - Campaign Data:
-  - `campaign`: Number of contacts performed during this campaign (numeric)
-  - `pdays`: Number of days since the client was last contacted (numeric)
-  - `previous`: Number of contacts before this campaign (numeric)
-  - `poutcome`: Outcome of the previous campaign (categorical)
+  - **campaign**: Number of contacts performed during this campaign (numeric)
+  - **pdays**: Number of days since the client was last contacted (numeric)
+  - **previous**: Number of contacts before this campaign (numeric)
+  - **poutcome**: Outcome of the previous campaign (categorical)
   
-- Economic Indicators:
-  - `emp.var.rate`: Employment variation rate (numeric)
-  - `cons.price.idx`: Consumer price index (numeric)
-  - `cons.conf.idx`: Consumer confidence index (numeric)
-  - `euribor3m`: Euribor 3 month rate (numeric)
-  - `nr.employed`: Number of employees (numeric)
+### - Economic Indicators:
+  - **emp-var**: Employment variation rate (numeric)
+  - **cpi** : Consumer price index (numeric)
+  - **cons.conf.idx**: Consumer confidence index (numeric)
+  - **uribor3m**: Euribor 3 month rate (numeric)
+  - **nr.employed**: Number of employees (numeric)
 
-- Target Variable:
-  - `y`: Subscription to a term deposit (binary: 'yes' or 'no')
+### - Target Variable:
+  - **y**: Subscription to a term deposit (binary: 'yes' or 'no')
 
 
-- Points:
+### - Points:
 - `unknown` values in categorical variables such as `job`, `education`, `default`, `housing`, and `loan` represent missing data.
 - `999` in `pdays` indicates that the client was not previously contacted.
 
