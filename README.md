@@ -170,22 +170,22 @@ Nnumerical features are: age, duration, campaign, pdays, previous, employment va
 
 
 # First Round of Modeling: 
-1- what kind of maching learing model? as our target variable is object ('yes' or 'no'), we have classification, and as target variable is `imbalance ('no'= 89%, 'yes'= 11%)`, then we have `imbalance` dataset.
+1- **what kind of maching learing model?** as our target variable is object ('yes' or 'no'), we have classification, and as target variable is `imbalance ('no'= 89%, 'yes'= 11%)`, then we have `imbalance` dataset.
 
-2-Feature enginering in first round: I remove one numerical featue with maximum correlation. now we have 9 numerical feature and 10 categorical. 
+2-**Feature enginering** in first round: I remove one numerical featue with maximum correlation. now we have 9 numerical feature and 10 categorical. 
 
-3- Preprocessor and encoding:
+3- **Preprocessor and encoding**:
 -use `LabelEncoder()` for target variable 
 -use `StandardScaler()` for numerical variables.
 -use `OneHotEncoder()` for categorical variables. 
 
-4- `Baseline model is DummyClassifier`. why we use it? if you want to predict, without more attemp, what is your prediction? with attention to struture of target variable, if you predict 'no' you get 89% accuracy, but as your prediction for 'yes' is wrong, your recall and precision is 0% and then your AUC is 50%. Dummy classification does exacly that. For more detial see problem 7: 
+4- **Baseline model** is `DummyClassifier`. why we use it? if you want to predict, without more attemp, what is your prediction? with attention to struture of target variable, if you predict 'no' you get 89% accuracy, but as your prediction for 'yes' is wrong, your recall and precision is 0% and then your AUC is 50%. Dummy classification does exacly that. For more detial see problem 7: 
 
-5- `Simple model`: we use logistic regression (`LogisticRegression()`) where all hyperparameters are define. score of the model reaches to 91% and very sharp improvement achieved in precision and recall for target = 1(or 'yes' before labelencoding). This shows that simple model has changed the quality of prediction sharply. For detail see problems 8 and 9:
+5- **Simple model**: we use logistic regression (`LogisticRegression()`) where all hyperparameters are define. score of the model reaches to 91% and very sharp improvement achieved in precision and recall for target = 1(or 'yes' before labelencoding). This shows that simple model has changed the quality of prediction sharply. For detail see problems 8 and 9:
       
-6- Adding `other models`: we use `decision tree`, `KNN` and `SVM` models too. We check calssification report for all of them, and comapre them. 
+6- **Adding other models**: we use `decision tree`, `KNN` and `SVM` models too. We check calssification report for all of them, and comapre them. 
 
-7- `Evaluation`: Moreover, we compare train score, test score and average fit time, here is the result: 
+7- **Evaluation** : Moreover, we compare train score, test score and average fit time, here is the result: 
 
 
 | Model                  |Train Score | Test Scor      | Fit Time       | Precision | Recall  | F1-Score | 
@@ -196,28 +196,28 @@ Nnumerical features are: age, duration, campaign, pdays, previous, employment va
 | Logistic Regression    | 0.91       | 0.91           | 0.42           | 0.66      | 0.42    | 0.51     | 
 
 
-8- `Best model in first round of modeling (SVM)`: with attention to all criteria (train score, test score, time, recall, precision and f1), `SVM` is best model and second best model is logistic regression. see evaluation is 10-2-model comparison and 10-3-best model. 
+8- **Best model** in first round of modeling (`SVM)`: with attention to all criteria (train score, test score, time, recall, precision and f1), `SVM` is best model and second best model is logistic regression. see evaluation is 10-2-model comparison and 10-3-best model. 
 
 # Second round of modeling: 
-1- `More Feature enginering`: I remove two numerical featue with maximum correlation and remove two categorical features. Now we have 7 numerical and 8 categoricalfeatures.  
+1- **More Feature enginering**: I remove two numerical featue with maximum correlation and remove two categorical features. Now we have 7 numerical and 8 categoricalfeatures.  
 
-2- `Preprocessor and encoding:`
+2- **Preprocessor and encoding**
 -use `LabelEncoder()` for target variable 
 -use `StandardScaler()` for numerical variables.
 -use `OneHotEncoder()` for categorical variables.
 
-3- using `GridSearchCV` for tuning the hyperparameters: we define differtent hyperparameters for each classifier and define pipeline with preprocessor, gridsearch for each classifier. 
+3- using **GridSearchCV** for tuning the `hyperparameters`: we define differtent hyperparameters for each classifier and define pipeline with preprocessor, gridsearch for each classifier. 
 
-4- `Best parameters` for each classifier are found: 
+4- **Best parameters** for each classifier are found: 
 
 `Best Params for  Decision Tree classification`              : {'model__criterion': 'gini', 'model__max_depth': 3}
 `Best Params for  KNN classification`                        : {'model__n_neighbors': 2, 'model__p': 1, 'model__weights': 'uniform'}
 `Best Params for SVM classification`                         : {'model__C': 0.1, 'model__kernel': 'rbf'}
 `Best Params for Logistic Regression classification`        : {'model__C': 1, 'model__solver': 'lbfgs'}
 
-5- `Pipeline` with best parameters are defined to compare classifiers `user friendly`.
+5- **Pipeline** with best parameters are defined to compare classifiers `user friendly`.
 
-6- `Evaluation`: evaluatin is based on accuracy score, time, calssification report (recall, precision, f1), confusion matrix and ROC curve. here are the resutls, for more information see 11-5-2 and 11-5-3 sections.
+6- **Evaluation**: evaluatin is based on accuracy score, time, calssification report (recall, precision, f1), confusion matrix and ROC curve. here are the resutls, for more information see 11-5-2 and 11-5-3 sections.
  
 
  	                 Accuracy 	    Precision 	Recall 	    F1-Score 	ROC-AUC
@@ -226,7 +226,7 @@ Logistic Regression 	0.913693 	0.696203 	0.414871 	0.519919 	0.939016
 Decision Tree 	        0.912843 	0.614379 	0.607759 	0.611051 	0.878884
 SVM 	                0.908109 	0.693878 	0.329741 	0.447042 	NaN
 
-7- `best model: logistic regression` is best model. see our evaluation in 11-5 section of pythone code
+7- **best model**: `logistic regression` is best model. see our evaluation in 11-5 section of pythone code
 
 ### Feature importance in best model: 
 
