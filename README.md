@@ -4,7 +4,7 @@
 
 Suppose you take part in a meeting to evaluate campaign marketing strategy in banking industry
 
-Speaker represents the strategy and now is your turn to give suggestion
+### <span style="color: Red; "> Speaker represents the strategy and now is your turn to give suggestion </span>
 
 You can suggest this: Oh, let see what AI says. 
 
