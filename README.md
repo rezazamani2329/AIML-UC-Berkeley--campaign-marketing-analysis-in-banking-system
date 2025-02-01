@@ -30,7 +30,7 @@ We will go step by steps (in `11 problems`). Generally, these steps can be seen 
 
 7- **Suggestions**: last part (`after problem 11`) 
 
-### 4- Order of actions
+### 4- **Order of actions**
 
 1- **Data udnerstanding**
 
