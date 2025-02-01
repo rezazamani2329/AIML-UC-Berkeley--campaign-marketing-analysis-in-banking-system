@@ -1,17 +1,16 @@
-# AIML-UC-Berkeley--campaign-marketing-analysis-in-banking-system
 # Big Picture of the Project and its process:  
 
-1- `Using AIML to evaluate marketing strategy` 
+### 1- Using AIML to evaluate marketing strategy
 
 Suppose you take part in a meeting to evaluate campaign marketing strategy in banking industry
 Speaker represents the strategy and now is your turn to give suggestion
 You can suggest this: Oh, let see what AI says. 
 
-2- `Structure designer of the project and Python code writer `
+### 2- Structure designer of the project and Python code writer 
 Here is the answer of AIML for your suggestion, please follow it. You will find some good ideas.
 This code has user friendly structure. It is classification issue in machine learning and designed by `UC Berkeley`, from `Berkeley Engineering` and `Berkeley HAAS` and written by `Reza Zamani`.
 
-3- `Process of the project`
+### 3- Process of the project
 We will go step by steps (in `11 problems`). Generally, these steps can be seen in six sections:
 1- `Data understanding, freature engineering and visualization` : From problem 1 to problem 3, and in porblem 11
 2- `Business understanding`: problem 4
@@ -21,7 +20,7 @@ We will go step by steps (in `11 problems`). Generally, these steps can be seen 
 6- `feature importance by best model`: problem 11
 5- `Suggestions`: last part (after problem 11) 
 
-4- `Order of actions`
+### 4- Order of actions
 1- Data udnerstanding
 2- Business udnerstanding
 3- Methodology: classification 
@@ -50,16 +49,16 @@ In This project, I apply machine learning algorithms to understandthe how factor
 
 # Business Understanding
 
-1-`Problem Definition`:
+### 1-Problem Definition:
 During 2008-2010, the world experienced financial crieses, and there was a huge pressure on European banks to increase financial asset. To solve this issue, campaign marketing in Portugal as a case study of this project started. They created different campaigns.
 
-2- `Strategy`:
+### 2- Strategy:
 strategy was to offer attractive long-term deposit applications with good interest rates, particularly by using directed marketing campaigns. Thus, there is a need for improvement in efficiency: lesser customer contacts must be done, but same success rate (clients subscribing to the deposit) must be maintained.
 
-3- `Efficinecy issue`:
+### 3- Efficinecy issue:
 In this perspective bank can increase the efficiency of its marketing campaigns, reduce costs, and improve conversion rates, ultimately leading to better customer targeting and higher profitability
 
-4- `Business objective`:
+### 4- Business objective:
 Business objective of this poroject is to predict whether a client will subscribe to a term deposit based on various client, campaign, economic and social indicators.
 
 # Data Understanding (general)
@@ -74,7 +73,7 @@ Business objective of this poroject is to predict whether a client will subscrib
  d- Social and economic context attributes: 5 features including employment variation rate, number of imployment, confidence, cpi and interest rate. 
  here is total list wit detial: 
  
-- Client Data:
+### - Client Data:
   - `age`: Age of the client
   - `job`: Job type (categorical)
   - `marital`: Marital status (categorical)
@@ -83,13 +82,13 @@ Business objective of this poroject is to predict whether a client will subscrib
   - `housing`: Has housing loan? (categorical)
   - `loan`: Has personal loan? (categorical)
   
-- Contact Data:
+### - Contact Data:
   - `contact`: Communication type (categorical)
   - `month`: Last contact month (categorical)
   - `day_of_week`: Last contact day of the week (categorical)
   - `duration`: Last contact duration in seconds (numeric)
   
-- Campaign Data:
+### - Campaign Data:
   - `campaign`: Number of contacts performed during this campaign (numeric)
   - `pdays`: Number of days since the client was last contacted (numeric)
   - `previous`: Number of contacts before this campaign (numeric)
