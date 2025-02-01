@@ -30,6 +30,7 @@ We will go step by steps (in `11 problems`). Generally, these steps can be seen 
 
 7- **Suggestions**: last part (`after problem 11`) 
 
+
 ### 4- **Order of actions**
 
 1- **Data udnerstanding**
@@ -48,17 +49,17 @@ We will go step by steps (in `11 problems`). Generally, these steps can be seen 
 
 8- **Accurate Feature engineering and EDA: multiple correlation analysis**
 
-9- Using Grid Search to find best parameters for each classifer
+9- **Using Grid Search to find best parameters for each classifer**
 
-10- Performance evaluation of clasiffiers with best parameters
+10- **Performance evaluation of clasiffiers with best parameters**
 
-11- Finding best model among different calissifers with best parameters
+11- **Finding best model** among different calissifers with best parameters
 
-12- Featuer Importance with best model
+12- **Featuer Importance with best model**
 
-13- Cross check of feature improtance with EDA and feature engineering
+13- **Cross check** of feature improtance with EDA and feature engineering
 
-14- Clear suggestions with attention to business undestanding
+14- **Clear suggestions** with attention to business undestanding
 
 
 
