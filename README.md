@@ -3,11 +3,14 @@
 ### 1- Using AIML to evaluate marketing strategy
 
 Suppose you take part in a meeting to evaluate campaign marketing strategy in banking industry
+
 Speaker represents the strategy and now is your turn to give suggestion
+
 You can suggest this: Oh, let see what AI says. 
 
 ### 2- Structure designer of the project and Python code writer 
 Here is the answer of AIML for your suggestion, please follow it. You will find some good ideas.
+
 This code has user friendly structure. It is classification issue in machine learning and designed by `UC Berkeley`, from `Berkeley Engineering` and `Berkeley HAAS` and written by `Reza Zamani`.
 
 ### 3- Process of the project
@@ -28,19 +31,33 @@ We will go step by steps (in `11 problems`). Generally, these steps can be seen 
 5- `Suggestions`: last part (after problem 11) 
 
 ### 4- Order of actions
+
 1- Data udnerstanding
+
 2- Business udnerstanding
+
 3- Methodology: classification 
+
 4- Visualizatio and EDA
+
 5- Baseline and simple models
+
 6- Performance evaluation of clasiffiers with default parameters
+
 7- Finding best model with default parameters
+
 8- Accurate Feature engineering and EDA: multiple correlation analysis
-9- Using Grid Search to find best parameters for each classifer:
-10- Performance evaluation of clasiffiers with best parameters:
-11- Finding best model among different calissifers with best parameters:
-12- Featuer Importance with best model:
+
+9- Using Grid Search to find best parameters for each classifer
+
+10- Performance evaluation of clasiffiers with best parameters
+
+11- Finding best model among different calissifers with best parameters
+
+12- Featuer Importance with best model
+
 13- Cross check of feature improtance with EDA and feature engineering
+
 14- Clear suggestions with attention to business undestanding
 
 
