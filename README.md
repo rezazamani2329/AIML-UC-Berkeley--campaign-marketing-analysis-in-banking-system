@@ -218,13 +218,14 @@ Nnumerical features are: age, duration, campaign, pdays, previous, employment va
 5- **Pipeline** with best parameters are defined to compare classifiers `user friendly`.
 
 6- **Evaluation**: evaluatin is based on accuracy score, time, calssification report (recall, precision, f1), confusion matrix and ROC curve. here are the resutls, for more information see 11-5-2 and 11-5-3 sections.
- 
 
- 	                 Accuracy 	    Precision 	Recall 	    F1-Score 	ROC-AUC
-KNN 	                0.895484 	0.597101 	0.221983 	0.323645 	0.789870
-Logistic Regression 	0.913693 	0.696203 	0.414871 	0.519919 	0.939016
-Decision Tree 	        0.912843 	0.614379 	0.607759 	0.611051 	0.878884
-SVM 	                0.908109 	0.693878 	0.329741 	0.447042 	NaN
+ | Model                  |Accuracy     | Precision      | Recall       | F1-Score      |	ROC-AUC   | 
+ 
+| KNN                     | 0.895484    | 0.597101       | 0.221983     | 0.323645      | 0.789870  |   
+|Logistic Regression      | 0.913693    | 0.696203       | 0.414871     | 0.519919      | 0.939016  |  
+| Decision Tree           | 0.912843    |	0.614379       | 0.607759     | 0.611051      | 0.878884  |   
+| SVM                     | 0.908109    | 	0.693878      | 0.329741     | 0.447042      | 		NaN     | 
+               
 
 7- **best model**: `logistic regression` is best model. see our evaluation in 11-5 section of pythone code
 
