@@ -210,10 +210,13 @@ Nnumerical features are: age, duration, campaign, pdays, previous, employment va
 
 4- **Best parameters** for each classifier are found: 
 
-`Best Params for  Decision Tree classification`              : {'model__criterion': 'gini', 'model__max_depth': 3}
-`Best Params for  KNN classification`                        : {'model__n_neighbors': 2, 'model__p': 1, 'model__weights': 'uniform'}
-`Best Params for SVM classification`                         : {'model__C': 0.1, 'model__kernel': 'rbf'}
-`Best Params for Logistic Regression classification`        : {'model__C': 1, 'model__solver': 'lbfgs'}
+-`Best Params for  Decision Tree classification`              : {'model__criterion': 'gini', 'model__max_depth': 3}
+
+-`Best Params for  KNN classification`                        : {'model__n_neighbors': 2, 'model__p': 1, 'model__weights': 'uniform'}
+
+-`Best Params for SVM classification`                         : {'model__C': 0.1, 'model__kernel': 'rbf'}
+
+-`Best Params for Logistic Regression classification`        : {'model__C': 1, 'model__solver': 'lbfgs'}
 
 5- **Pipeline** with best parameters are defined to compare classifiers `user friendly`.
 
