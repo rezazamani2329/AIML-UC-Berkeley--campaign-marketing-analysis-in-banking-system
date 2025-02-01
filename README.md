@@ -16,19 +16,19 @@ This code has user friendly structure. It is classification issue in machine lea
 ### 3- Process of the project
 We will go step by steps (in `11 problems`). Generally, these steps can be seen in six sections:
 
-1- `Data understanding, freature engineering and visualization` : From problem 1 to problem 3, and in porblem 11
+1- Data understanding, freature engineering and visualization : From problem 1 to problem 3, and in porblem 11
 
-2- `Business understanding`: problem 4
+2- Business understanding: problem 4
 
-3- `Baseline and simple Models` (to get general clue): from problem 5 to problem 9
+3- Baseline and simple Models (to get general clue): from problem 5 to problem 9
 
-4- `Other models and model comparison` (evaluation, choosing the best model): problem 10
+4- Other models and model comparison (evaluation, choosing the best model): problem 10
 
-5- `best parameters for each classifier with gridsearch and choosing the best model among them`: problem 11
+5- best parameters for each classifier with gridsearch and choosing the best model among them: problem 11
 
-6- `feature importance by best model`: problem 11
+6- feature importance by best model: problem 11
 
-5- `Suggestions`: last part (after problem 11) 
+5- Suggestions: last part (after problem 11) 
 
 ### 4- Order of actions
 
