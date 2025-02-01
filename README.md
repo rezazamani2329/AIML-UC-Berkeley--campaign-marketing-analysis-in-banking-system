@@ -186,6 +186,8 @@ Nnumerical features are: age, duration, campaign, pdays, previous, employment va
 6- Adding `other models`: we use `decision tree`, `KNN` and `SVM` models too. We check calssification report for all of them, and comapre them. 
 
 7- `Evaluation`: Moreover, we compare train score, test score and average fit time, here is the result: 
+
+
 | Model                  |Train Score | Test Scor      | Fit Time       | Precision | Recall  | F1-Score | 
 |------------------------|------------|----------------|--------------- |-----------|---------|----------|-
 | Decision Tree          | 1.00       | 0.89           | 1.32           | 0.52      | 0.51    | 0.51     |   
