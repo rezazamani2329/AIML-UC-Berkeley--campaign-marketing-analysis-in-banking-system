@@ -14,39 +14,39 @@ Here is the answer of AIML for your suggestion, please follow it. You will find 
 This code has user friendly structure. It is classification issue in machine learning and designed by `UC Berkeley`, from `Berkeley Engineering` and `Berkeley HAAS` and written by `Reza Zamani`.
 
 ### 3- Process of the project
-We will go step by steps (in `11 problems`). Generally, these steps can be seen in six sections:
+We will go step by steps (in `11 problems`). Generally, these steps can be seen in following sections:
 
-1- Data understanding, freature engineering and visualization : From `problem 1 to problem 3, and in porblem 11`
+1- **Data understanding, freature engineering and visualization** : From `problem 1 to problem 3, and in porblem 11`
 
 2- **Business understanding**: `problem 4`
 
-3- Baseline and simple Models (to get general clue): from `problem 5 to problem 9`
+3- **Baseline and simple Models** (to get general clue): from `problem 5 to problem 9`
 
-4- Other models and model comparison (evaluation, choosing the best model): `problem 10`
+4- **Other models and model comparison** (evaluation, choosing the best model): `problem 10`
 
-5- best parameters for each classifier with gridsearch and choosing the best model among them: `problem 11`
+5- **best parameters** for each classifier with gridsearch and choosing the best model among them: `problem 11`
 
-6- feature importance by best model: `problem 11`
+6- **feature importance by best model**: `problem 11`
 
-5- Suggestions: last part (`after problem 11`) 
+7- **Suggestions**: last part (`after problem 11`) 
 
 ### 4- Order of actions
 
-1- Data udnerstanding
+1- **Data udnerstanding**
 
-2- Business udnerstanding
+2- **Business udnerstanding**
 
-3- Methodology: classification 
+3- **Methodology: classification**
 
-4- Visualizatio and EDA
+4- **Visualizatio and EDA**
 
-5- Baseline and simple models
+5- **Baseline and simple models**
 
-6- Performance evaluation of clasiffiers with default parameters
+6- **Performance evaluation of clasiffiers with default parameters**
 
-7- Finding best model with default parameters
+7- **Finding best model with default parameters**
 
-8- Accurate Feature engineering and EDA: multiple correlation analysis
+8- **Accurate Feature engineering and EDA: multiple correlation analysis**
 
 9- Using Grid Search to find best parameters for each classifer
 
