@@ -68,7 +68,7 @@ We will go step by steps (in `11 problems`). Generally, these steps can be seen 
 What derives the success rate of campaign marketing strategy in banking system. 
 
 # OVERVIEW
-In portugal, as our case study, for the period of 2008-2010, a marketing approach defiend and applied by 17 groups as member of campaign. each member who taked part in this marketing called people and tried to to convince them to depostie their money in the bank.
+In `Portugal`, as our case study, for the period of `2008-2010`, a marketing approach defiend and applied by `17 groups` as member of campaign. each member who taked part in this marketing called people and tried to to convince them to depostie their money in the bank.
 
 
 In This project, I apply machine learning algorithms to understandthe how factors (personal, conatact related issues, economic and social condition of society and other factors) affect the succes rate of campaign marketing in banking system. 
