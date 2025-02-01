@@ -4,7 +4,7 @@
 
 Suppose you take part in a meeting to evaluate campaign marketing strategy in banking industry
 
-### <span style="color: Red; "> Speaker represents the strategy and now is your turn to give suggestion </span>
+Speaker represents the strategy and now is your turn to give suggestion 
 
 You can suggest this: Oh, let see what AI says. 
 
@@ -18,7 +18,7 @@ We will go step by steps (in `11 problems`). Generally, these steps can be seen 
 
 1- Data understanding, freature engineering and visualization : From `problem 1 to problem 3, and in porblem 11`
 
-2- Business understanding: `problem 4`
+2- **Business understanding**: `problem 4`
 
 3- Baseline and simple Models (to get general clue): from `problem 5 to problem 9`
 
